@@ -8,7 +8,7 @@
 <h2 align="center">📄 Know about my experiences</h2><h3 align="center"><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0"><center>Google Sites</center></a> </h3>
 
 <h2 align="center">Connect with me:</h2>
-<p align="Computer">
+<p align="center">
 <center><a href="https://fb.com/angewoooh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="angewoooh" height="30" width="40" /></a></center>
 </p>
 
