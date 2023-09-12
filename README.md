@@ -3,7 +3,7 @@
 
 <h2 align="center">🏫 Education</h2> <h3 align="center">Information Communication Technology (SHS) <br>New Era University 2019 - 2021 Bachelor of Science Computer Science <br> New Era University 2021 - Present</h3>
 
-<h2 align="center">📫 How to reach me </h2><h3><a href ="mailto:angelomallari1123@gmail.com"><h3 align="center"></h3><center>angelomallari1123@gmail.com</center></h3></a> </h3>
+<h2 align="center">📫 How to reach me </h2><h3><a href ="mailto:angelomallari1123@gmail.com"><h3 align="center">angelomallari1123@gmail.com</a></h3>
 
 <h2 align="center">📄 Know about my experiences</h2><h3><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0"><center>Google Sites</center></a> </h3>
 
