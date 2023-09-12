@@ -5,7 +5,7 @@
 
 <h2 align="center">📫 How to reach me </h2><h3 align="center"><a href ="mailto:angelomallari1123@gmail.com">angelomallari1123@gmail.com</a></h3>
 
-<h2 align="center">📄 Know about my experiences</h2><h3><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0"><center>Google Sites</center></a> </h3>
+<h2 align="center">📄 Know about my experiences</h2><h3 align="center"><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0"><center>Google Sites</center></a> </h3>
 
 <h2 align="center">Connect with me:</h2>
 <p align="Computer">
