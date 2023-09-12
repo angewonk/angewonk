@@ -1,7 +1,7 @@
 <h1 align="center">Hello, I'm Angelo Gerard T. Mallari</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-- Education 🏫 **Information Communication Technology (SHS) | New Era University 2019 - 2021 Bachelor of Science Computer Science | New Era University 2021 - Present**
+<h2 align="center">- Education 🏫 Information Communication Technology (SHS) | New Era University 2019 - 2021 Bachelor of Science Computer Science | New Era University 2021 - Present</h2>
 
 - 📫 How to reach me **angelomallari1123@gmail.com**
 
