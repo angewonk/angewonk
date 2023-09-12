@@ -1,9 +1,9 @@
 <h1 align="center">Hello, I'm Angelo Gerard T. Mallari</h1>
 <h3 align="center">A Computer Science Student</h3>
 
-<h2 align="center">- Education 🏫</h2><center> Information Communication Technology (SHS) | New Era University 2019 - 2021 Bachelor of Science Computer Science | New Era University 2021 - Present</center>
+<h2 align="center">- Education 🏫</h2><center> <h3></h3>Information Communication Technology (SHS) | New Era University 2019 - 2021 Bachelor of Science Computer Science | New Era University 2021 - Present</center>
 
-<h2 align="center">- 📫 How to reach me angelomallari1123@gmail.com</h2>
+<h2 align="center">- 📫 How to reach me </h2><h3>angelomallari1123@gmail.com</h3>
 
 <h2 align="center"></h2>- 📄 Know about my experiences [https://sites.google.com/neu.edu.ph/angelomallari/resume?authuser=0](https://sites.google.com/neu.edu.ph/angelomallari/resume?authuser=0)</h2>
 
