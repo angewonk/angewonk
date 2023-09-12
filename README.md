@@ -3,12 +3,12 @@
 
 <h2 align="center">🏫 Education</h2> <h3 align="center">Information Communication Technology (SHS) <br>New Era University 2019 - 2021 Bachelor of Science Computer Science <br> New Era University 2021 - Present</h3>
 
-<h2 align="center">📫 How to reach me </h2><h3><a href ="mailto:angelomallari1123@gmail.com">angelomallari1123@gmail.com</a> </h3>
+<h2 align="center">📫 How to reach me </h2><h3><a href ="mailto:angelomallari1123@gmail.com"><h3 align="center"></h3>angelomallari1123@gmail.com</h3></a> </h3>
 
 <h2 align="center"></h2>📄 Know about my experiences</h2><h3><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0">Google Sites</a> </h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<h3 align="center">Connect with me:</h3>
+<p align="Computer">
 <a href="https://fb.com/angewoooh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="angewoooh" height="30" width="40" /></a>
 </p>
 
