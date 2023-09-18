@@ -8,7 +8,10 @@
 <h2 align="center">📄 Know about my experiences</h2><h3 align="center"><a href ="https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0"><center>Google Sites</center></a> </h3>
 
 <h2 align="center">Connect with me:</h2>
-<p align="center"><a href="https://fb.com/angewoooh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="angewoooh" height="30" width="40" /></a>
+<p align="center">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/angelo-gerard-mallari-62163b136/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/angelo-gerard-mallari-62163b136/" height="30" width="40" /></a>
+<a href="https://fb.com/angewoooh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="angewoooh" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/https://www.youtube.com/channel/ucoqhndzkghk-p2vxfivws0a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucoqhndzkghk-p2vxfivws0a" height="30" width="40" /></a>
 </p>
 
 <h2 align="center">Languages and Tools:</h2>
