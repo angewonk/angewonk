@@ -1,3 +1,5 @@
+![Cover Photo](https://cdn.discordapp.com/attachments/769875420992110592/1214546154209935370/Webp.net-resizeimage_2.png?ex=65f98140&is=65e70c40&hm=458427146c2ab2f0e6a0a7beaa153bb0ff9eac6239a88dc56cdc6c44b3b7abf8&)
+
 # Hello, I'm Angelo Gerard T. Mallari
 
 
