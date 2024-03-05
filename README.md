@@ -16,7 +16,7 @@
 ### Connect with me:
 [<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40">](https://linkedin.com/in/angelo-gerard-mallari-62163b136/)
 [<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="30" width="40">](https://fb.com/angewoooh)
-[<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40">](https://www.youtube.com/channel/ucoqhndzkghk-p2vxfivws0a)
+[<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40">](https://www.youtube.com/channel/UCoQHNdZKGhk-P2vXfIvwS0A)
 
 ### Languages and Tools:
 - HTML5, CSS3, Java, MongoDB, MySQL, Oracle, Photoshop, Unity, Unreal Engine
