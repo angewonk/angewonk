@@ -25,7 +25,7 @@
   - [Cognitive Class](https://courses.cognitiveclass.ai/certificates/c3b917d8410d45fc80f42803d84c076b)
   - *November 3, 2022*
 
-### Tech Achievements
+### Tech Projects
 
 #### Best Dashboarding Projects
 1. [Awesome Chocolate Dashboard Report](https://github.com/angewonk/Awesome-Chocolate-Dashboard-Report)
