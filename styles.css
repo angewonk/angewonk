@@ -1172,4 +1172,14 @@ body {
     .hero {
         padding-top: calc(var(--nav-height) + 1rem);
     }
+}
+
+.about-content .card p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.about-content .card p:last-child {
+    margin-bottom: 0;
 } 
