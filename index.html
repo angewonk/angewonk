@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>angewonk</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
@@ -33,16 +34,33 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <div class="typing-container">
-                <span class="typing-text">Hi, my name is</span>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-button close"></span>
+                        <span class="terminal-button minimize"></span>
+                        <span class="terminal-button maximize"></span>
+                    </div>
+                    <div class="terminal-title">angewonk@portfolio ~ </div>
+                </div>
+                <div class="terminal-body">
+                    <div class="command-line">
+                        <span class="prompt">$</span> echo "Hi, my name is"
+                        <div class="output">Angelo Gerard T. Mallari.</div>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt">$</span> whoami
+                        <div class="output">I build AI-powered experiences.</div>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt">$</span> ./about.sh
+                        <div class="output">I'm a software engineer specializing in artificial intelligence, machine learning, and web development. Currently focused on creating innovative solutions in computer vision and generative AI while pursuing my Computer Science degree at New Era University.</div>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt">$</span> <span class="cursor">█</span>
+                    </div>
+                </div>
             </div>
-            <div class="typing-container">
-                <h1 class="typing-text">Angelo Gerard T. Mallari.</h1>
-            </div>
-            <div class="typing-container">
-                <h2 class="typing-text">I build AI-powered experiences.</h2>
-            </div>
-            <p>I'm a software engineer specializing in artificial intelligence, machine learning, and web development. Currently focused on creating innovative solutions in computer vision and generative AI while pursuing my Computer Science degree at New Era University.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn">View My Work <i class="fas fa-arrow-right"></i></a>
                 <a href="#contact" class="btn btn-outline">Get In Touch</a>
@@ -52,7 +70,7 @@
 
     <!-- About Section -->
     <section id="about" class="section">
-        <h2><span>01.</span> About Me</h2>
+        <h2><span>01.</span> About Me<span class="typing-cursor">█</span></h2>
         <div class="about-content">
             <div class="card">
                 <p>I'm a Computer Science student at New Era University with a strong focus on AI and software development. My expertise spans computer vision, machine learning, and web development. I've contributed to various AI projects through data annotation at companies like Telus and Appen, while also leading UI/UX design initiatives at Highly Succeed Inc.</p>
@@ -63,7 +81,7 @@
 
     <!-- Experience Section -->
     <section id="experience" class="section">
-        <h2><span>02.</span> Experience</h2>
+        <h2><span>02.</span> Experience<span class="typing-cursor">█</span></h2>
         <div class="experience-grid">
             <div class="card">
                 <h3>Highly Succeed Inc.</h3>
@@ -99,7 +117,7 @@
 
     <!-- Projects Section -->
     <section id="projects" class="section">
-        <h2><span>03.</span> Featured Projects</h2>
+        <h2><span>03.</span> Featured Projects<span class="typing-cursor">█</span></h2>
         <div class="project-grid">
             <div class="card">
                 <div class="project-content">
@@ -177,7 +195,7 @@
 
     <!-- Skills Section -->
     <section id="skills" class="section">
-        <h2><span>04.</span> Skills</h2>
+        <h2><span>04.</span> Skills<span class="typing-cursor">█</span></h2>
         <div class="skills-container">
             <div class="card">
                 <h3>AI & Machine Learning</h3>
@@ -222,7 +240,7 @@
 
     <!-- Certificates Section -->
     <section id="certificates" class="section">
-        <h2><span>05.</span> Certifications</h2>
+        <h2><span>05.</span> Certifications<span class="typing-cursor">█</span></h2>
         <div class="cert-grid">
             <div class="card">
                 <h4>AI & Machine Learning</h4>
@@ -304,7 +322,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="section">
-        <h2><span>06.</span> Get In Touch</h2>
+        <h2><span>06.</span> Get In Touch<span class="typing-cursor">█</span></h2>
         <div class="contact-container">
             <div class="card">
                 <div class="contact-info">

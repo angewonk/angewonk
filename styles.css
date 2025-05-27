@@ -303,9 +303,11 @@ body {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    position: relative;
-    z-index: 1;
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 .hero span {
@@ -394,7 +396,7 @@ body {
 .card {
     background: var(--bg-secondary);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(86, 156, 214, 0.1);
+    border: 1px solid rgba(197, 134, 192, 0.1);
     border-radius: var(--border-radius);
     padding: clamp(1.5rem, 4vw, 2rem);
     transition: var(--transition);
@@ -404,9 +406,9 @@ body {
 }
 
 .card:hover {
-    border-color: var(--accent-secondary);
+    border-color: var(--accent-primary);
     transform: translateY(-5px);
-    box-shadow: var(--card-hover-shadow);
+    box-shadow: 0 20px 40px -15px rgba(197, 134, 192, 0.2);
 }
 
 .card::before {
@@ -607,8 +609,8 @@ body {
     gap: 0.8rem;
     padding: 1rem 2rem;
     background: transparent;
-    color: var(--accent-secondary);
-    border: 1px solid var(--accent-secondary);
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
     border-radius: var(--border-radius);
     font-size: var(--font-size-sm);
     font-weight: 500;
@@ -642,7 +644,7 @@ body {
 
 .btn:hover {
     transform: translateY(-2px);
-    background: rgba(86, 156, 214, 0.1);
+    background: rgba(197, 134, 192, 0.1);
 }
 
 /* Animations */
@@ -785,15 +787,19 @@ body {
 }
 
 .project-tech span:hover {
-    background: rgba(78, 201, 176, 0.2);
+    background: rgba(197, 134, 192, 0.2);
     transform: translateY(-2px);
 }
 
 /* Modern Certificate Cards */
 .cert-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cert-list li {
+    margin-bottom: 1rem;
 }
 
 .cert-list li a {
@@ -808,15 +814,9 @@ body {
     border-radius: var(--border-radius);
 }
 
-.cert-list li a::before {
-    content: "▹";
-    color: var(--accent-primary);
-    font-size: 1.2rem;
-}
-
 .cert-list li a:hover {
     color: var(--accent-primary);
-    background: rgba(100, 255, 218, 0.05);
+    background: rgba(197, 134, 192, 0.05);
     transform: translateX(5px);
 }
 
@@ -1211,23 +1211,31 @@ body {
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
     .hero {
-        align-items: flex-start;
-        padding-top: calc(var(--nav-height) + 2rem);
+        min-height: auto;
+        padding-top: 2rem;
     }
 
     .hero-content {
-        padding-bottom: 2rem;
+        padding: 0;
     }
 
-    .typing-container:first-child {
-        margin-top: 0;
+    .terminal {
+        font-size: 0.9rem;
+    }
+    
+    .terminal-body {
+        padding: 1rem;
+    }
+    
+    .output {
+        padding: 0.5rem 0 0 1rem;
     }
 }
 
 /* Small mobile adjustments */
 @media (max-width: 480px) {
     .hero {
-        padding-top: calc(var(--nav-height) + 1rem);
+        padding-top: 1rem;
     }
 }
 
@@ -1272,4 +1280,166 @@ body {
 .project-links a:focus,
 .project-links a:active {
     text-decoration: none;
+}
+
+/* Terminal Colors */
+.terminal {
+    background-color: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+    font-family: 'Fira Code', monospace;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+}
+
+.terminal-header {
+    background-color: #21252b;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #181a1f;
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal-button.close {
+    background-color: #ff5f56;
+}
+
+.terminal-button.minimize {
+    background-color: #ffbd2e;
+}
+
+.terminal-button.maximize {
+    background-color: #27c93f;
+}
+
+.terminal-title {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.terminal-body {
+    padding: 1.5rem;
+    background-color: #282c34;
+}
+
+.command-line {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #abb2bf;  /* Light gray for commands */
+}
+
+.command-line:last-child {
+    margin-bottom: 0;
+}
+
+.prompt {
+    color: #98c379;  /* Light green for prompt */
+    margin-right: 0.75rem;
+}
+
+/* Style for echo command */
+.command-line:nth-child(1) .output {
+    color: #e06c75;  /* Pink for name */
+}
+
+/* Style for whoami command */
+.command-line:nth-child(2) .output {
+    color: #61afef;  /* Blue for role */
+}
+
+/* Style for about command */
+.command-line:nth-child(3) .output {
+    color: #98c379;  /* Green for bio */
+}
+
+/* Command text after prompt */
+.command-line > span.prompt + text,
+.command-line > span.prompt ~ text {
+    color: #c678dd;  /* Purple for commands */
+}
+
+/* String literals in commands */
+.command-line span[class*="string"] {
+    color: #98c379;  /* Green for strings */
+}
+
+.output {
+    padding: 0.5rem 0 0 1.5rem;
+    line-height: 1.6;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.cursor {
+    color: #56b6c2;  /* Cyan for cursor */
+    animation: blink 1s infinite;
+}
+
+@media (max-width: 768px) {
+    .terminal {
+        font-size: 0.9rem;
+    }
+    
+    .terminal-body {
+        padding: 1rem;
+    }
+    
+    .output {
+        padding: 0.5rem 0 0 1rem;
+    }
+}
+
+/* Section Headers Typing Effect */
+.section h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+}
+
+.typing-cursor {
+    display: inline-block;
+    width: 0.5em;
+    margin-left: 0.1em;
+    font-family: monospace;
+    animation: blink 1s step-end infinite;
+    color: var(--accent-primary);
+    font-weight: normal;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Make cursor visible when section is in view */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
 } 
