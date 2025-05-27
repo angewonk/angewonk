@@ -4,7 +4,8 @@ const navLinks = document.querySelector('.nav-links');
 const header = document.querySelector('.header');
 
 // Handle mobile menu
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent document click from immediately closing menu
     navLinks.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
@@ -17,22 +18,25 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// Smooth scrolling for navigation links
+// Close mobile menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
+// Smooth scrolling with mobile header height adjustment
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            // Close mobile menu if open
-            navLinks.classList.remove('active');
-            hamburger.classList.remove('active');
-            
-            // Smooth scroll to target
-            const headerOffset = header.offsetHeight;
+            const headerHeight = header.offsetHeight;
             const elementPosition = target.getBoundingClientRect().top;
-            const offsetPosition = elementPosition - headerOffset;
+            const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
 
-            window.scrollBy({
+            window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
             });
@@ -40,17 +44,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Intersection Observer for fade-in animations
+// Intersection Observer for fade-in animations with mobile optimization
 const fadeInObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-            fadeInObserver.unobserve(entry.target); // Only animate once
+            requestAnimationFrame(() => {
+                entry.target.classList.add('fade-in');
+            });
+            fadeInObserver.unobserve(entry.target);
         }
     });
 }, {
     threshold: 0.1,
-    rootMargin: '-50px'
+    rootMargin: '50px'
 });
 
 // Observe all sections and cards for fade-in animation
@@ -72,32 +78,41 @@ const navObserver = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.5
+    threshold: 0.2,
+    rootMargin: `-${header.offsetHeight}px 0px 0px 0px`
 });
 
 // Observe all sections for navigation highlighting
-document.querySelectorAll('section').forEach((section) => {
+document.querySelectorAll('section[id]').forEach((section) => {
     navObserver.observe(section);
 });
 
-// Header scroll behavior
+// Header scroll behavior with touch optimization
 let lastScroll = 0;
+let scrollTimeout;
+
 window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
-    
-    // Add/remove header background
-    if (currentScroll > 50) {
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
+    if (scrollTimeout) {
+        window.cancelAnimationFrame(scrollTimeout);
     }
-    
-    // Hide/show header on scroll
-    if (currentScroll > lastScroll && currentScroll > 500) {
-        header.classList.add('header-hidden');
-    } else {
-        header.classList.remove('header-hidden');
-    }
-    
-    lastScroll = currentScroll;
+
+    scrollTimeout = window.requestAnimationFrame(() => {
+        const currentScroll = window.pageYOffset;
+        
+        // Add/remove header background
+        if (currentScroll > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+        
+        // Hide/show header on scroll
+        if (currentScroll > lastScroll && currentScroll > 500) {
+            header.classList.add('header-hidden');
+        } else {
+            header.classList.remove('header-hidden');
+        }
+        
+        lastScroll = currentScroll;
+    });
 }); 
