@@ -1,11 +1,12 @@
 // Mobile menu functionality
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links li');
 const header = document.querySelector('.header');
+let lastScroll = 0;
 
 // Handle mobile menu
-hamburger.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent document click from immediately closing menu
+hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
@@ -88,7 +89,6 @@ document.querySelectorAll('section[id]').forEach((section) => {
 });
 
 // Header scroll behavior with touch optimization
-let lastScroll = 0;
 let scrollTimeout;
 
 window.addEventListener('scroll', () => {
@@ -114,5 +114,113 @@ window.addEventListener('scroll', () => {
         }
         
         lastScroll = currentScroll;
+    });
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Scroll progress bar
+const scrollProgress = document.createElement('div');
+scrollProgress.className = 'scroll-progress';
+document.body.appendChild(scrollProgress);
+
+window.addEventListener('scroll', () => {
+    const windowScroll = document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (windowScroll / height) * 100;
+    scrollProgress.style.transform = `scaleX(${scrolled / 100})`;
+});
+
+// Intersection Observer for fade-in animations
+const observerOptions = {
+    root: null,
+    threshold: 0.1,
+    rootMargin: "0px"
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Add fade-in animation to sections
+document.querySelectorAll('section').forEach(section => {
+    section.classList.add('fade-in-hidden');
+    observer.observe(section);
+});
+
+// Add fade-in animation to cards
+document.querySelectorAll('.card').forEach(card => {
+    card.classList.add('fade-in-hidden');
+    observer.observe(card);
+});
+
+// Header scroll behavior
+window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll <= 0) {
+        header.classList.remove('scrolled');
+        header.classList.remove('header-hidden');
+        return;
+    }
+    
+    if (currentScroll > lastScroll && currentScroll > 100) {
+        header.classList.add('header-hidden');
+    } else {
+        header.classList.remove('header-hidden');
+    }
+    
+    if (currentScroll > 100) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+    
+    lastScroll = currentScroll;
+});
+
+// Typing animation for hero section
+const typingTexts = document.querySelectorAll('.typing-text');
+typingTexts.forEach((text, index) => {
+    text.style.opacity = '1';
+});
+
+// Project card hover effects
+document.querySelectorAll('.project-content').forEach(card => {
+    const icon = card.querySelector('i');
+    card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        
+        icon.style.transform = `translate(${x/20}px, ${y/20}px) rotate(5deg)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+        icon.style.transform = 'translate(0, 0) rotate(0)';
+    });
+});
+
+// Certificate hover animation
+document.querySelectorAll('.cert-list li a').forEach(cert => {
+    cert.addEventListener('mouseenter', () => {
+        cert.style.transform = 'translateX(10px)';
+    });
+    
+    cert.addEventListener('mouseleave', () => {
+        cert.style.transform = 'translateX(0)';
     });
 }); 
