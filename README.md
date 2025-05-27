@@ -2,6 +2,8 @@
 
 A comprehensive portfolio showcasing my expertise in artificial intelligence, machine learning, and web development. Currently focused on creating innovative solutions in computer vision and generative AI while pursuing my Computer Science degree at New Era University.
 
+**[🔗 View Live Portfolio](https://angewonk.github.io/angewonk/)**
+
 ## Featured Projects
 
 ### Real-time Posture Detection System
