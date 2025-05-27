@@ -146,42 +146,59 @@ An AI-powered medical consultation platform developed in collaboration with NEU 
 ### AI & Machine Learning
 - [The Art of Prompt Engineering](https://courses.cognitiveclass.ai/certificates/77b650b1de524977812bf4aa617cb8ec) - IBM
   - Advanced prompt engineering techniques for LLMs
-  - Completion: 2024
+  - Completion: December 4, 2024
+
+- [Prompt Engineering for Everyone](https://courses.cognitiveclass.ai/certificates/33ff6ecc09e743ae9e7331a6d85b3a49) - IBM
+  - Fundamentals of prompt engineering
+  - Completion: December 2024
+
+- [Create Your Own Chatbot Website with Open Source LLMs](https://courses.cognitiveclass.ai/certificates/2d4e52f93faf4d6f8de2438e4a29e78c) - IBM
+  - LLM implementation and chatbot development
+  - Completion: December 16, 2024
 
 - [Deep Learning with TensorFlow](https://courses.cognitiveclass.ai/certificates/5a70641476654d1cb33ff4d2c4e593e8) - IBM
   - Neural networks and deep learning architectures
-  - Completion: 2024
+  - Completion: December 16, 2024
 
 - [Introduction to Generative AI](https://www.cloudskillsboost.google/public_profiles/776d7e6c-ba4d-4a04-aa15-8a31267c9054) - Google Cloud
   - Foundations of generative AI and LLMs
-  - Completion: 2024
+  - Completion: December 4, 2024
+
+- [Generative AI Fundamentals](https://credentials.databricks.com/52929ee7-fa98-402f-8ba6-5abfae2a0c51) - Databricks
+  - Comprehensive generative AI concepts
+  - Completion: December 4, 2024
 
 ### Programming & Development
 - [Responsive Web Design](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/responsive-web-design) - freeCodeCamp
   - Modern responsive design principles
   - HTML5, CSS3, Flexbox, Grid
-  - Completion: 2024
+  - Completion: December 2, 2024
 
-- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/javascript-algorithms-and-data-structures) - freeCodeCamp
+- [Legacy JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/javascript-algorithms-and-data-structures) - freeCodeCamp
   - Advanced JavaScript concepts
   - Algorithm scripting
-  - Completion: 2024
+  - Completion: December 2, 2024
 
 - [Scientific Computing with Python](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/scientific-computing-with-python-v7) - freeCodeCamp
   - Python programming
   - Scientific computing libraries
-  - Completion: 2024
+  - Completion: December 4, 2024
 
-### Data Analytics & Business Intelligence
+### Data Analytics & Technology
 - [Data Analysis with Python](https://courses.cognitiveclass.ai/certificates/5dc2b0f1f61d4ce29bea0bebb8d7a1b2) - IBM
   - Data manipulation and analysis
   - Statistical computing
-  - Completion: 2024
+  - Completion: December 16, 2024
 
-- [Business Analytics with Excel](https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI2NjQiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC90aHVtYl80NDk4MDI5XzE2OTQwNTY0NjgucG5nIiwidXNlcm5hbWUiOiJBbmdlbG8gR2VyYXJkIFQuIE1hbGxhcmkifQ%3D%3D) - Simplilearn
-  - Advanced Excel analytics
-  - Business intelligence
-  - Completion: 2024
+- [Introduction to IoT](https://www.credly.com/badges/3675eacb-93de-4c3b-bab8-d0370a7f4d80/public_url) - Cisco
+  - IoT fundamentals and digital transformation
+  - Emerging technologies integration
+  - Completion: December 16, 2024
+
+- [Introduction to Open Source](https://courses.cognitiveclass.ai/certificates/e3fed4b8a9914e06a9ccd6b3009554d3) - IBM
+  - Open source principles and practices
+  - Collaboration in open source
+  - Completion: December 16, 2024
 
 ## Contact
 
