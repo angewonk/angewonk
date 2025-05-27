@@ -565,19 +565,19 @@ body {
     justify-content: center;
     gap: 1rem;
     padding: 1.5rem;
-    background: rgba(22, 32, 51, 0.5);
+    background: var(--bg-secondary);
     border-radius: var(--border-radius);
     transition: var(--transition);
 }
 
 .contact-item:hover {
     transform: translateY(-3px);
-    background: rgba(22, 32, 51, 0.8);
+    background: rgba(197, 134, 192, 0.1);
 }
 
 .contact-item i {
     font-size: 1.5rem;
-    color: var(--accent-secondary);
+    color: var(--accent-primary);
 }
 
 .contact-item a {
