@@ -1,61 +1,94 @@
-# Hello, I'm Angelo Gerard T. Mallari
+# Angelo Gerard T. Mallari - Portfolio Website
 
-## 🏫 Education
-- **Information Communication Technology (SHS)**
-  - *New Era University 2019 - 2021*
-- **Bachelor of Science in Computer Science**
-  - *New Era University 2021 - Present*
+A modern, responsive portfolio website showcasing my expertise in AI and software engineering. Visit [angelomallari.com](#) to see it live.
 
-## 📄 Achievements
+## Overview
 
-### Certifications
-- **Business Analytics with Excel**
-  - [Simplilearn](https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI2NjQiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC90aHVtYl80NDk4MDI5XzE2OTQwNTY0NjgucG5nIiwidXNlcm5hbWUiOiJBbmdlbG8gR2VyYXJkIFQuIE1hbGxhcmkifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F2738%2FBusiness-Analytics-with-Excel%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1228126295463985648&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVN6o0KAjJ80kKcU4CAEstEfklAAAA)
-  - *September 07, 2023*
+This portfolio is built with:
+- Pure HTML5, CSS3, and JavaScript
+- Responsive design principles
+- Modern animations and transitions
+- Dark theme with mint green accents
 
-- **Oracle Cloud Data Management 2022 Foundations Certified Associate**
-  - [Oracle Certification](https://catalog-education.oracle.com/pls/certview/sharebadge?id=67B5AD5655004EFDB9B1C993B7D16ACD148CEE4469BCF630283A91E74091FD33)
-  - *December 09, 2022*
+## Certifications & Achievements
 
-- **Oracle Cloud Infrastructure 2022 Certified Foundations Associate**
-  - [Oracle Certification](https://catalog-education.oracle.com/pls/certview/sharebadge?id=6D5A712478A131491801E8E655E0FE10F1A6C97A62AB5E68A83F7DBEF653E88F)
-  - *November 21, 2022*
+### AI & Machine Learning
+- [The Art of Prompt Engineering](https://courses.cognitiveclass.ai/certificates/77b650b1de524977812bf4aa617cb8ec) - IBM
+- [Deep Learning with TensorFlow](https://courses.cognitiveclass.ai/certificates/5a70641476654d1cb33ff4d2c4e593e8) - IBM
+- [Introduction to Generative AI](https://www.cloudskillsboost.google/public_profiles/776d7e6c-ba4d-4a04-aa15-8a31267c9054) - Google Cloud
 
-- **SQL and Relational Databases 101**
-  - [Cognitive Class](https://courses.cognitiveclass.ai/certificates/c3b917d8410d45fc80f42803d84c076b)
-  - *November 3, 2022*
+### Programming & Development
+- [Responsive Web Design](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/responsive-web-design) - freeCodeCamp
+- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/javascript-algorithms-and-data-structures) - freeCodeCamp
+- [Scientific Computing with Python](https://www.freecodecamp.org/certification/fcc2de998be-0c4a-4e5a-a4f2-b8fd3451956d/scientific-computing-with-python-v7) - freeCodeCamp
 
-### Tech Projects
+### Data Analytics
+- [Data Analysis with Python](https://courses.cognitiveclass.ai/certificates/5dc2b0f1f61d4ce29bea0bebb8d7a1b2) - IBM
+- [Business Analytics with Excel](https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI2NjQiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC90aHVtYl80NDk4MDI5XzE2OTQwNTY0NjgucG5nIiwidXNlcm5hbWUiOiJBbmdlbG8gR2VyYXJkIFQuIE1hbGxhcmkifQ%3D%3D) - Simplilearn
 
-#### Best Dashboarding Projects
-1. [Awesome Chocolate Dashboard Report](https://github.com/angewonk/Awesome-Chocolate-Dashboard-Report)
-2. [Power BI Project 1](https://app.powerbi.com/view?r=eyJrIjoiMWVmZmEzYzktYTc4NS00ZWFiLWJkNmUtODZhZTAwZGI0YWYzIiwidCI6IjBiOTVhYmRlLWE4YzUtNGJmNy1hZGVjLTdmMzkzMzM2NWY3MSIsImMiOjEwfQ%3D%3D)
-3. [Power BI Project 2](https://app.powerbi.com/view?r=eyJrIjoiNGRmNGU4MDUtYzA5My00NGNiLWFjNTEtNTZmMmRjNmFkNzBiIiwidCI6IjBiOTVhYmRlLWE4YzUtNGJmNy1hZGVjLTdmMzkzMzM2NWY3MSIsImMiOjEwfQ%3D%3D)
+## Featured Projects
 
-#### Best Software Engineering Design Pattern Repositories
-1. [solidWithDesignPattern](https://github.com/angewonk/solidWithDesignPattern)
-2. [visitorPatternLAB](https://github.com/angewonk/visitorPatternLAB)
-3. [stateDesignPattern](https://github.com/angewonk/stateDesignPattern)
+### YOLOv8 Health Monitoring
+Real-time computer user health monitoring system using computer vision.
+- Posture detection
+- Drowsiness detection
+- Eye gaze tracking
+- **Tech Stack:** Python, YOLOv8, Computer Vision
 
-### Other Accomplishments
-- **Google Sites:** [Angelo Mallari - Google Sites](https://sites.google.com/neu.edu.ph/angelomallari/home?authuser=0)
+### Medi-bot
+AI-powered medical consultation platform.
+- Health-related query handling
+- Advanced API integration
+- **Tech Stack:** Python, JavaScript
 
-## 🛠 Skill Set
-- **Data Visualization Tools:** PowerBI Desktop, Tableau Public
-- **Programming Languages:** Java, Python
-- **DBMS:** DB2
-- **Dev Tools:** JasperSoft Studio, Lucidchart, Eclipse, etc.
+## Technical Skills
 
-## 📫 How to Reach Me
-- **Email:** [angelomallari1123@gmail.com](mailto:angelomallari1123@gmail.com)
+### AI & Machine Learning
+- TensorFlow
+- YOLOv8
+- Prompt Engineering
+- Data Analysis
 
-## 🌐 Connect with Me
-[<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40">](https://linkedin.com/in/angelo-gerard-mallari-62163b136/)
-[<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="30" width="40">](https://fb.com/angewoooh)
-[<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40">](https://www.youtube.com/channel/UCoQHNdZKGhk-P2vXfIvwS0A)
+### Programming Languages
+- Python
+- Java
+- JavaScript
+- HTML/CSS
+- PHP
 
-## 🔧 Languages and Tools
-- HTML5, CSS3, Java, MongoDB, MySQL, Oracle, Photoshop, Unity, Unreal Engine
+### Tools & Technologies
+- PowerBI
+- Tableau
+- Unity & Unreal Engine
+- Bootstrap
+- Laragon
 
-## 📂 GitHub Profile
-[GitHub Profile](https://github.com/angewonk)
+### Databases & Networking
+- DB2
+- SQL
+- Cisco Packet Tracer
+- IoT
+
+## Professional Experience
+
+### Highly Succeed Inc. (2024)
+**Team Leader - Graphics & Web Development**
+- UI/UX design leadership
+- Front-end development
+- Team coordination
+
+### AI Companies - Telus, Appen (2020-2021)
+**Data Annotation Specialist**
+- AI training data preparation
+- Computer vision data labeling
+- Quality assurance
+
+## Contact
+
+- 📧 angelomallari1123@gmail.com
+- 💼 [LinkedIn](https://linkedin.com/in/angelo-gerard-mallari-62163b136/)
+- 🐱 [GitHub](https://github.com/angewonk)
+- 📍 Tandang Sora, Quezon City 1116
+
+---
+Built with love by Angelo Gerard T. Mallari, a hopeless romantic | 2025
