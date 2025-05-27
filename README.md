@@ -28,6 +28,30 @@ This portfolio is built with:
 
 ## Featured Projects
 
+### Real-time Posture Detection System
+A CNN-based system for monitoring computer users' posture in real-time. [View Demo](https://angewonk.github.io/Real-time-Posture-detection-using-custom-CNN-model/)
+
+**Key Features:**
+- Real-time upper-body posture monitoring from multiple angles
+- CNN model with 0.99 F1 score (1.00 precision, 0.99 recall)
+- 25,000 image dataset with advanced data augmentation
+- 10-second bad posture alert system
+- Comprehensive data augmentation techniques
+
+**Tech Stack:** Python, CNN, Computer Vision, scikit-learn
+
+### METEMP-SYCHOSIS
+A 2D educational RPG game developed in Adobe Flash. [View Project](https://github.com/angewonk/METEMP-SYCHOSIS)
+
+**Features:**
+- Four challenging levels with increasing difficulty
+- Multiple game modes and interactive gameplay
+- Engaging storyline set in the mysterious world of Alfheim
+- Educational content integrated into gameplay
+- Collaborative development with a team of creators
+
+**Tech Stack:** Adobe Flash, ActionScript, Game Development
+
 ### YOLOv8 Health Monitoring
 Real-time computer user health monitoring system using computer vision.
 - Posture detection
